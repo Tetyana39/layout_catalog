@@ -18,14 +18,14 @@
     font-weight: 500;
     font-size: 12px;
     line-height: 18px;
-    margin: 0 0 4px;
+    letter-spacing: 0%;
     color: $main-text-color;
   }
 
   &__text {
-    font-size: 12px;
-    line-height: 18px;
-    color: $main-text-color;
+    font-size: 10px;
+    line-height: 14px;
+    color: $add-info-color;
     margin-bottom: 16px;
   }
 

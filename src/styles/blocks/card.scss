@@ -85,10 +85,10 @@
       color: $main-text-color;
       transform: scale(1.2);
     }
+  }
 
-    &:hover &__title {
+  &:hover &__title {
       color: #34568b;
       transition: color 0.3s;
-    }
   }
 }

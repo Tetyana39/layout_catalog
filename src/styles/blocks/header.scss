@@ -32,13 +32,13 @@
       color: $main-text-color;
       border: none;
 
-      &:hover {
-        color: $accent-color;
-      }
-
       &--is-active {
         position: relative;
         color: $accent-color;
+
+        &:hover {
+        color: $accent-color;
+      }
 
         &::after {
           content: '';
@@ -52,6 +52,8 @@
         }
       }
     }
+
+
 
     &--no-margin {
       margin: 0;

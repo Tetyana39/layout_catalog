@@ -5,6 +5,7 @@
   border-radius: 5px;
   background-color: #fff;
   padding: 32px 19px 19px;
+  transition: transform 0.3s;
 
   &__img {
     display: block;
@@ -18,6 +19,7 @@
     font-size: 12px;
     line-height: 18px;
     margin: 0 0 4px;
+    color: $main-text-color;
   }
 
   &__text {
@@ -48,6 +50,9 @@
   }
 
   &__price-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
     color: $add-info-color;
   }
 
@@ -76,8 +81,14 @@
 
     &:hover {
       background-color: transparent;
-      border: 1px solid $accent-color;
-      color: $accent-color;
+      border: 1px solid $main-text-color;
+      color: $main-text-color;
+      transform: scale(1.2);
+    }
+
+    &:hover &__title {
+      color: #34568b;
+      transition: color 0.3s;
     }
   }
 }
